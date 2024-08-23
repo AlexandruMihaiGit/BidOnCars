@@ -1,0 +1,208 @@
+.bara_start{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+li{
+     
+     float:right;
+     
+}
+.poza_logo{
+    width: 60px;
+    height: 60px;
+}
+.bara_prezentare{
+    background-color: rgb(19, 119, 59);
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(234, 232, 232);
+    margin: 0;
+    padding: 0;
+}
+li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    margin-right: 30px;
+    display: block;
+    border-radius: 30px;
+}
+li a:hover{
+    background-color: chartreuse;
+}
+h1{
+    text-align:center;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+.poza_masina{
+    width:300px;
+    height:250px;
+    border-radius: 10px;
+}
+.masini2{
+    margin:5px;
+    padding:5px;
+    display:flex;
+
+}
+.masini1{
+    margin-left: 20px;
+    background-color:white;
+    border-radius: 20px;
+    width: 800px;
+    border-style:solid;
+    margin:20px;
+    border-color:rgb(19, 119, 59);
+    box-shadow: 10px 5px 3px 1px gray;
+
+}
+.Liciteaza1{
+    font-size: 18px;
+    width: 120px;
+    padding: 10px;
+    background-color:greenyellow ;
+    border-radius: 20px;
+}
+.Liciteaza1 a{
+    text-decoration: none;
+}
+.Liciteaza1:hover{
+    background-color:rgb(69, 222, 143) ;
+    cursor: pointer;
+}
+.despre_noi_inceput{
+    display:flex;
+}
+.despre_noi{
+    margin-left: 30px;
+
+}
+.platforma{
+    width:300px;
+    height: 300px;
+    padding:50px;
+}
+.tip_masini {
+    float: right;
+    background-color:white;
+    border-radius: 20px;
+    border-style:solid;
+    margin:20px;
+    padding:20px;
+    border-color:rgb(19, 119, 59);
+    box-shadow: 10px 5px 3px 1px gray;
+}
+.tip_masini a{
+    text-decoration: none;
+    color:blue;
+    margin:20px;
+}
+.tip_masini label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.tip_masini select {
+    padding: 8px;
+    border: 1px solid rgb(19, 119, 59);
+    border-radius:20px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.tip_masini select option {
+    font-size: 14px;
+}
+
+.tip_masini select:hover,
+.tip_masini select:focus {
+    border-color: #666;
+}
+.active{
+    color:white;
+}
+.Marci_populare{
+    float:right;
+    padding:10px;
+}
+li1 a{
+    color:black;
+}
+.despre_dacia_inceput{
+    display:flex;
+}
+.despre_dacia{
+    margin-left:30px;
+}
+.poza_dacia{
+    width:300px;
+    border:1px;
+    padding:100px;
+}
+.despre_skoda_inceput{
+    display:flex;
+}
+.despre_skoda{
+    margin-left: 30px;
+}
+.poza_skoda{
+    width:300px;
+    border:1px;
+    padding:100px;
+}
+p{
+    text-align: justify;
+}
+.poza_masina_liciteaza{
+    text-align:center;
+    width:300px;
+    height:250px;
+    border-radius: 10px;
+}
+.masini_liciteaza2{
+    margin:25px;
+    padding:25px;
+    display: flex;
+
+}
+.masini_liciteaza1{
+    text-align: center;
+    background-color:white;
+    border-radius: 20px;
+    width: 1200px;
+    border-style:solid;
+    margin:auto;
+    margin-top: 30px;
+    border-color:rgb(19, 119, 59);
+    box-shadow: 10px 5px 3px 1px gray;
+
+}
+.Detalii1_liciteaza{
+    margin-top:-10px;
+    font-size: larger;
+}
+.Detalii2_liciteaza{
+    text-align: center;
+    margin-top:-10px;
+    font-size: larger;
+}
+.Liciteaza_final{
+    width:120px;
+    padding: 20px;
+    background-color:greenyellow ;
+    margin-bottom: 20px;
+    font-size: larger;
+    border-radius: 10px;
+}
+.Liciteaza_final:hover{
+    background-color:rgb(69, 222, 143) ;
+    cursor: pointer;
+}
